@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Feature Badges</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  
+  <style>
+    * {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(#7db7ff, #b6d6ff);
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 300px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  border-radius: 999px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  background: white;
+  color: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 14px;
+  font-size: 18px;
+}
+
+/* Color Variants */
+.dark {
+  background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+}
+
+.blue {
+  background: linear-gradient(135deg, #0a2a73, #0f4ccf);
+}
+
+.yellow {
+  background: linear-gradient(135deg, #ffb703, #ffcb3c);
+  color: #fff;
+}
+
+.sky {
+  background: linear-gradient(135deg, #1e88ff, #4db2ff);
+}
+
+/* Icon Colors */
+.lightning { color: #f7b500; }
+.lock { color: #0a2a73; }
+.money { color: #ffb703; }
+.data { color: #1e88ff; }
+
+  </style>
+</head>
+<body>
+
+  <div class="features">
+    <div class="feature dark">
+      <span class="icon lightning">
+        <i class="fa-solid fa-bolt"></i>
+      </span>
+      <span class="text">99% uptime</span>
+    </div>
+
+    <div class="feature blue">
+      <span class="icon lock">
+        <i class="fa-solid fa-lock"></i>
+      </span>
+      <span class="text">Secure & Reliable</span>
+    </div>
+
+    <div class="feature yellow">
+      <span class="icon money">
+        <i class="fa-solid fa-sack-dollar"></i>
+      </span>
+      <span class="text">Affordable</span>
+    </div>
+
+    <div class="feature sky">
+      <span class="icon data">
+        <i class="fa-solid fa-signal"></i>
+      </span>
+      <span class="text">Unlimited Data</span>
+    </div>
+  </div>
+
+</body>
+</html>

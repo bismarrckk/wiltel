@@ -1,162 +1,154 @@
-<section class="w3l-footer-29-main">
-  <div class="footer-29 py-5">
-    <div class="container py-lg-4">
-      <div class="row footer-top-29">
-        <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
-          <div class="footer-logo mb-4">
-            <a class="navbar-brand" href="index.html">
-             Wiltel Company</a>
-             <p>Social Media Links</p>
-          </div>
-          
-          <div class="main-social-footer-29 mt-4">
-            <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-            <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-            <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
-            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+  <a href="https://wa.me/254718598249" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+  </a>
+ <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about ">
+          <h4>Wiltel</h4>
+          <div class="footer-contact pt-3">
+            <p>Tengecha Harambee Rd</p>
+            <p>Kericho,Kenya</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+254 720625454</span></p>
+            <p><strong>Email:</strong> <span>info@wiltel.co.ke</span></p>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
 
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
           <ul>
-            <h6 class="footer-title-29">Useful Links</h6>
-            <li><a href="index.php"> Home</a></li>
-            <li><a href="contact.php">Contact us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about.php">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="contact.php">Contact Us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="faq.php">FAQs</a></li>
           </ul>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5">
-          
 
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="contact.php">Fiber Solutions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="contact.php">Wireless Solutions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="contact.php">CCTV Installation</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="contact.php">web/App development</a></li>
+          </ul>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
-          <h6 class="footer-title-29">Contact Info </h6>
-          <p class="my-2">Phone : <a href="tel:+254 726178460">+254 720625454</a></p>
-          <p>Email : <a href="mailto:info@wiltel.co.ke">info@wiltel.co.ke</a></p>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>You can also reach us through our social media platforms below</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
+
       </div>
     </div>
-  </div>
-  <!-- copyright -->
-  <section class="w3l-copyright text-center">
-    <div class="container">
-      <p class="copy-footer-29">© 2021 WILTEL. All rights reserved. Design by <a href="#">
-          ibizz.co.ke</a></p>
+  </footer>
+   <section id="featured-services" class="featured-services section py-2 text-center" style="background: #106eea;color:#fff">
+   <div class="container copyright text-center footer2" style="background: #106eea;color:#fff;padding:1rem">
+     
+   <p>All Rights Reserved | Copyright 2026 © Wiltel </p>
     </div>
+   </section>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-      &#10548;
-    </button>
-    <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction()
-      };
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("movetop").style.display = "block";
-        } else {
-          document.getElementById("movetop").style.display = "none";
-        }
-      }
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-    <!-- /move top -->
-  </section>
-  <!-- //copyright -->
-</section>
-<!-- //footer -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector(".php-email-form");
 
-<!-- all js scripts and files here -->
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // STOP actual submit
 
-<script src="assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
+    // Elements
+    const loading = form.querySelector(".loading");
+    const errorMessage = form.querySelector(".error-message");
+    const sentMessage = form.querySelector(".sent-message");
 
-<script src="assets/js/jquery-3.3.1.min.js"></script><!-- default jQuery -->
+    // Reset states
+    loading.style.display = "block";
+    errorMessage.style.display = "none";
+    sentMessage.style.display = "none";
 
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $('.popup-with-zoom-anim').magnificPopup({
-      type: 'inline',
-
-      fixedContentPos: false,
-      fixedBgPos: true,
-
-      overflowY: 'auto',
-
-      closeBtnInside: true,
-      preloader: false,
-
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-zoom-in'
-    });
-
-    $('.popup-with-move-anim').magnificPopup({
-      type: 'inline',
-
-      fixedContentPos: false,
-      fixedBgPos: true,
-
-      overflowY: 'auto',
-
-      closeBtnInside: true,
-      preloader: false,
-
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-slide-bottom'
-    });
+    // Simulate sending delay
+    setTimeout(() => {
+      loading.style.display = "none";
+      sentMessage.style.display = "block";
+      form.reset(); // clear form
+    }, 1000);
   });
+});
 </script>
+<canvas id="snow"></canvas>
 
-<!-- disable body scroll which navbar is in active -->
 <script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-<!-- disable body scroll which navbar is in active -->
+const canvas = document.getElementById("snow");
+const ctx = canvas.getContext("2d");
 
-<!--/MENU-JS-->
-<script>
-  $(window).on("scroll", function () {
-    var scroll = $(window).scrollTop();
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
-    if (scroll >= 80) {
-      $("#site-header").addClass("nav-fixed");
-    } else {
-      $("#site-header").removeClass("nav-fixed");
+const emojis = ["🎄"];
+const flakes = Array.from({ length: 40 }, () => ({
+  x: Math.random() * canvas.width,
+  y: Math.random() * canvas.height,
+  size: Math.random() * 18 + 12,
+  speed: Math.random() * 1.2 + 0.5,
+  emoji: emojis[Math.floor(Math.random() * emojis.length)]
+}));
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  flakes.forEach(f => {
+    ctx.font = `${f.size}px serif`;
+    ctx.fillText(f.emoji, f.x, f.y);
+    f.y += f.speed;
+
+    if (f.y > canvas.height) {
+      f.y = -20;
+      f.x = Math.random() * canvas.width;
     }
   });
+  requestAnimationFrame(draw);
+}
 
-  //Main navigation Active Class Add Remove
-  $(".navbar-toggler").on("click", function () {
-    $("header").toggleClass("active");
-  });
-  $(document).on("ready", function () {
-    if ($(window).width() > 991) {
-      $("header").removeClass("active");
-    }
-    $(window).on("resize", function () {
-      if ($(window).width() > 991) {
-        $("header").removeClass("active");
-      }
-    });
-  });
+draw();
+
+window.addEventListener("resize", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
 </script>
-<!--//MENU-JS-->
 
-<!-- bootstrap js -->
-<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

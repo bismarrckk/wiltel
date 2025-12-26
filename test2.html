@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internet Plans</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background: linear-gradient(#cfe5ff, #e9f3ff);
+}
+
+.plans-banner {
+display: flex;
+  flex-wrap: nowrap;     /* 🔒 prevents wrapping */
+  width: 100%;
+  gap:10px;
+}
+
+.plan-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background: white;
+  border: 4px solid black;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.circle h1 {
+  margin: 0;
+  font-size: 52px;
+  color: #106eea;
+  line-height: 1;
+  font-family: "Cinzel", serif;
+}
+
+.circle p {
+  margin: 1px 0 0;
+  font-size: 18px;
+  line-height: 1.0;
+}
+
+.price-banner {
+  margin-top: 12px;
+  background: black;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="plans-banner">
+  <div class="plan-banner">
+    <div class="circle">
+      <h1>10</h1>
+      <p><strong>Mbps</strong><br>Unlimited</p>
+    </div>
+    <div class="price-banner">2000/=</div>
+  </div>
+
+  <div class="plan-banner">
+    <div class="circle">
+      <h1>16</h1>
+      <p><strong>Mbps</strong><br>Unlimited</p>
+    </div>
+    <div class="price-banner">2500/=</div>
+  </div>
+
+  <div class="plan-banner">
+    <div class="circle">
+      <h1>20</h1>
+      <p><strong>Mbps</strong><br>Unlimited</p>
+    </div>
+    <div class="price-banner">3000/=</div>
+  </div>
+
+  <div class="plan-banner">
+    <div class="circle">
+      <h1>30</h1>
+      <p><strong>Mbps</strong><br>Unlimited</p>
+    </div>
+    <div class="price-banner">4000/=</div>
+  </div>
+
+  <div class="plan-banner">
+    <div class="circle">
+      <h1>40</h1>
+      <p><strong>Mbps</strong><br>Unlimited</p>
+    </div>
+    <div class="price-banner">5000/=</div>
+  </div>
+</div>
+
+</body>
+</html>
